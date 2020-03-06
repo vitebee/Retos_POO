@@ -36,7 +36,7 @@ int main()
     int n = sizeof(arr)/sizeof(arr[0]);
     bubbleSort(arr, n);
     for (int i = 0; i<=n; i++){
-        contador =T arr[i];
+        contador = arr[i];
         contador = contador + 1;
         if (contador != arr[i + 1]){
             printf("El numero faltante: \n");
