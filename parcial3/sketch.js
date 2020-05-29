@@ -22,6 +22,7 @@ function setup() {
   venus = new Venus(280, 280, 75, 225);
   tierra = new Tierra(400, 400, 100, 365);
   marte = new Marte(500, 500, 90, 687);
+  luna = new Luna(450, 450, 30, 365,24);
 }
 
 function draw() {
@@ -32,4 +33,5 @@ function draw() {
   venus.mostrar(angulo);
   tierra.mostrar(angulo);
   marte.mostrar(angulo);
+  luna.mostrar(angulo);
 }
